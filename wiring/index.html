@@ -1,0 +1,1522 @@
+
+<!doctype html>
+<html lang="id" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://aaws.readthedocs.my.id/wiring/">
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.3.5">
+    
+    
+      
+        <title>Versi Wiring Alat - Petunjuk MRO AAWS</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.4a0965b7.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.cbb835fc.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#2094f3">
+        
+      
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="blue" data-md-color-accent="light-blue">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#wiring-version-per-site" class="md-skip">
+          Lewati ke isi
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Petunjuk MRO AAWS" class="md-header__button md-logo" aria-label="Petunjuk MRO AAWS" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Petunjuk MRO AAWS
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Versi Wiring Alat
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Cari" placeholder="Cari" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Petunjuk MRO AAWS" class="md-nav__button md-logo" aria-label="Petunjuk MRO AAWS" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Petunjuk MRO AAWS
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sites/" class="md-nav__link">
+        Site AAWS
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Getting Started
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Getting Started" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Getting Started
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../requirement/" class="md-nav__link">
+        Toolkit
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../software/" class="md-nav__link">
+        Software
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Sistem Power
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Sistem Power" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Sistem Power
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../power/" class="md-nav__link">
+        Skema
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../solar-panel/" class="md-nav__link">
+        Wiring Power
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Sensor-sensor
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Sensor-sensor" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Sensor-sensor
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Versi Wiring Alat
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Versi Wiring Alat
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Daftar isi">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Daftar isi
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tabel-versi-wiring-sensor" class="md-nav__link">
+    Tabel Versi Wiring Sensor
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../wind10/" class="md-nav__link">
+        Wind 10m
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../wind2/" class="md-nav__link">
+        Wind 2m
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../radiation/" class="md-nav__link">
+        Solar Radiation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../trh/" class="md-nav__link">
+        T/RH
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pressure/" class="md-nav__link">
+        Air Pressure
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../wind05/" class="md-nav__link">
+        Wind 0.5m
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../rain/" class="md-nav__link">
+        Precipitation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../evaporation/" class="md-nav__link">
+        Evaporation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../soil/" class="md-nav__link">
+        Soil
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          Data Logger
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Data Logger" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Data Logger
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../firmware/" class="md-nav__link">
+        Upgrade Firmware
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../script/" class="md-nav__link">
+        Script Program
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../logger/" class="md-nav__link">
+        Browser
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../detransfer/" class="md-nav__link">
+        (optional) DeTransfer
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dex/" class="md-nav__link">
+        (optional) dEX-2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../battery/" class="md-nav__link">
+        Battery Replacement
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7">
+          Modem Komunikasi
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Modem Komunikasi" data-md-level="1">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          Modem Komunikasi
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../inhand/" class="md-nav__link">
+        InHand
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../robustel/" class="md-nav__link">
+        (retired) Robustel
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../moxa/" class="md-nav__link">
+        (retired) Moxa
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Daftar isi">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Daftar isi
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tabel-versi-wiring-sensor" class="md-nav__link">
+    Tabel Versi Wiring Sensor
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+
+<h1 id="wiring-version-per-site">Wiring Version per Site</h1>
+<hr />
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>Terdapat perbedaan versi wiring sensor antara 2019 dan 2020 untuk AAWS. Silahkan cek tabel untuk mengetahui versi wiring sensor yang digunakan.</p>
+</div>
+<h2 id="tabel-versi-wiring-sensor"><strong>Tabel Versi Wiring Sensor</strong></h2>
+<table>
+<thead>
+<tr>
+<th>NO</th>
+<th>STA</th>
+<th>NAMA SITE</th>
+<th>VERSI WIRING</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>AAWS0342</td>
+<td>AAWS Anggrek</td>
+<td>2020</td>
+</tr>
+<tr>
+<td>2</td>
+<td>AAWS0333</td>
+<td>AAWS Bajo</td>
+<td>2019</td>
+</tr>
+<tr>
+<td>3</td>
+<td>STA3211</td>
+<td>AAWS Balitbu Sumani</td>
+<td>2020<sup id="fnref20:1"><a class="footnote-ref" href="#fn:1">1</a></sup></td>
+</tr>
+<tr>
+<td>4</td>
+<td>AAWS0319</td>
+<td>AAWS Bangko</td>
+<td>2019</td>
+</tr>
+<tr>
+<td>5</td>
+<td>STA3006</td>
+<td>AAWS Banjarsari Ciamis</td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>STA3023</td>
+<td>AAWS Bantul</td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>STA3022</td>
+<td>AAWS Banyumas</td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>STA3057</td>
+<td>AAWS Banyuwangi</td>
+<td>2020<sup id="fnref19:1"><a class="footnote-ref" href="#fn:1">1</a></sup></td>
+</tr>
+<tr>
+<td>9</td>
+<td>STA3035</td>
+<td>AAWS Barito Kuala</td>
+<td>2020</td>
+</tr>
+<tr>
+<td>10</td>
+<td>STA3043</td>
+<td>AAWS Barito Timur</td>
+<td>2020</td>
+</tr>
+<tr>
+<td>11</td>
+<td>STA3209</td>
+<td>AAWS Batu Bara</td>
+<td>2020<sup id="fnref18:1"><a class="footnote-ref" href="#fn:1">1</a></sup></td>
+</tr>
+<tr>
+<td>12</td>
+<td>AAWS0315</td>
+<td>AAWS Belitang</td>
+<td>2020</td>
+</tr>
+<tr>
+<td>13</td>
+<td>AAWS0346</td>
+<td>AAWS Bengkayang</td>
+<td>2019</td>
+</tr>
+<tr>
+<td>14</td>
+<td>AAWS0322</td>
+<td>AAWS Bengkulu Utara</td>
+<td>2019</td>
+</tr>
+<tr>
+<td>15</td>
+<td>AAWS0325</td>
+<td>AAWS Boalemo Wonosari</td>
+<td>2019</td>
+</tr>
+<tr>
+<td>16</td>
+<td>STA3051</td>
+<td>AAWS Bojonegoro</td>
+<td></td>
+</tr>
+<tr>
+<td>17</td>
+<td>STA3007</td>
+<td>AAWS Bojongmangu</td>
+<td></td>
+</tr>
+<tr>
+<td>18</td>
+<td>STA3033</td>
+<td>AAWS Bolaang Mongondow</td>
+<td>2020</td>
+</tr>
+<tr>
+<td>19</td>
+<td>AAWS0331</td>
+<td>AAWS Bone</td>
+<td>2020</td>
+</tr>
+<tr>
+<td>20</td>
+<td>AAWS0330</td>
+<td>AAWS Bulukumba</td>
+<td>2020</td>
+</tr>
+<tr>
+<td>21</td>
+<td>STA3032</td>
+<td>AAWS Deli Serdang</td>
+<td>2020<sup id="fnref17:1"><a class="footnote-ref" href="#fn:1">1</a></sup></td>
+</tr>
+<tr>
+<td>22</td>
+<td>STA3030</td>
+<td>AAWS Dompu</td>
+<td>2020</td>
+</tr>
+<tr>
+<td>23</td>
+<td>AAWS0326</td>
+<td>AAWS Donggala</td>
+<td>2019</td>
+</tr>
+<tr>
+<td>24</td>
+<td>AAWS3010</td>
+<td>AAWS Dramaga</td>
+<td></td>
+</tr>
+<tr>
+<td>25</td>
+<td>STA3204</td>
+<td>AAWS GAW Bukit Kototabang</td>
+<td>2020<sup id="fnref16:1"><a class="footnote-ref" href="#fn:1">1</a></sup></td>
+</tr>
+<tr>
+<td>26</td>
+<td>AAWS0351</td>
+<td>AAWS Gunung Kidul</td>
+<td>2020</td>
+</tr>
+<tr>
+<td>27</td>
+<td>STA3042</td>
+<td>AAWS Hanau Seruyan</td>
+<td>2020</td>
+</tr>
+<tr>
+<td>28</td>
+<td>STA3212</td>
+<td>AAWS Hinai Langkat</td>
+<td>2020<sup id="fnref15:1"><a class="footnote-ref" href="#fn:1">1</a></sup></td>
+</tr>
+<tr>
+<td>29</td>
+<td>STA3037</td>
+<td>AAWS Hulu Sungai Selatan</td>
+<td>2020</td>
+</tr>
+<tr>
+<td>30</td>
+<td>STA3009</td>
+<td>AAWS Indramayu</td>
+<td></td>
+</tr>
+<tr>
+<td>31</td>
+<td>AAWS0354</td>
+<td>AAWS Jatinangor ITB</td>
+<td>2020</td>
+</tr>
+<tr>
+<td>32</td>
+<td>STA3268</td>
+<td>AAWS Jayapura</td>
+<td>2020<sup id="fnref14:1"><a class="footnote-ref" href="#fn:1">1</a></sup></td>
+</tr>
+<tr>
+<td>33</td>
+<td>STA3054</td>
+<td>AAWS Jember</td>
+<td></td>
+</tr>
+<tr>
+<td>34</td>
+<td>STA3047</td>
+<td>AAWS Jeneponto</td>
+<td>2020<sup id="fnref13:1"><a class="footnote-ref" href="#fn:1">1</a></sup></td>
+</tr>
+<tr>
+<td>35</td>
+<td>STA3020</td>
+<td>AAWS Jepara</td>
+<td></td>
+</tr>
+<tr>
+<td>36</td>
+<td>STA3202</td>
+<td>AAWS (ex. Kampar Kiri)</td>
+<td>2020<sup id="fnref12:1"><a class="footnote-ref" href="#fn:1">1</a></sup></td>
+</tr>
+<tr>
+<td>37</td>
+<td>AAWS0338</td>
+<td>AAWS Karang Bintang</td>
+<td>2020</td>
+</tr>
+<tr>
+<td>38</td>
+<td>STA3055</td>
+<td>AAWS Karangasem</td>
+<td></td>
+</tr>
+<tr>
+<td>39</td>
+<td>STA3040</td>
+<td>AAWS (ex. Katingan)</td>
+<td>2020<sup id="fnref11:1"><a class="footnote-ref" href="#fn:1">1</a></sup></td>
+</tr>
+<tr>
+<td>40</td>
+<td>AAWS0323</td>
+<td>AAWS Kendawangan Ketapang</td>
+<td>2019</td>
+</tr>
+<tr>
+<td>41</td>
+<td>STA3024</td>
+<td>AAWS Klaten</td>
+<td></td>
+</tr>
+<tr>
+<td>42</td>
+<td>STA3026</td>
+<td>AAWS Klungkung</td>
+<td>2020<sup id="fnref10:1"><a class="footnote-ref" href="#fn:1">1</a></sup></td>
+</tr>
+<tr>
+<td>43</td>
+<td>STA3041</td>
+<td>AAWS Kotawaringin Timur</td>
+<td>2020</td>
+</tr>
+<tr>
+<td>44</td>
+<td>AAWS0349</td>
+<td>AAWS Kroya</td>
+<td>2019</td>
+</tr>
+<tr>
+<td>45</td>
+<td>STA3208</td>
+<td>AAWS Kutacane</td>
+<td>2020<sup id="fnref9:1"><a class="footnote-ref" href="#fn:1">1</a></sup></td>
+</tr>
+<tr>
+<td>46</td>
+<td>AAWS0345</td>
+<td>AAWS Landak</td>
+<td>2020</td>
+</tr>
+<tr>
+<td>47</td>
+<td>STA3000</td>
+<td>AAWS Lebak</td>
+<td>2020<sup id="fnref8:1"><a class="footnote-ref" href="#fn:1">1</a></sup></td>
+</tr>
+<tr>
+<td>48</td>
+<td>AAWS0321</td>
+<td>AAWS Lebong</td>
+<td>2020</td>
+</tr>
+<tr>
+<td>49</td>
+<td>AAWS0348</td>
+<td>AAWS Lemah Abang</td>
+<td>2019</td>
+</tr>
+<tr>
+<td>50</td>
+<td>AAWS0347</td>
+<td>AAWS Lembor</td>
+<td>2019</td>
+</tr>
+<tr>
+<td>51</td>
+<td>AAWS0327</td>
+<td>AAWS Luwuk Banggai</td>
+<td>2019</td>
+</tr>
+<tr>
+<td>52</td>
+<td>AAWS0343</td>
+<td>AAWS Mesuji</td>
+<td>2019</td>
+</tr>
+<tr>
+<td>53</td>
+<td>AAWS0334</td>
+<td>AAWS Mowila</td>
+<td>2020</td>
+</tr>
+<tr>
+<td>54</td>
+<td>AAWS0316</td>
+<td>AAWS Muara Enim</td>
+<td>2019</td>
+</tr>
+<tr>
+<td>55</td>
+<td>AAWS0318</td>
+<td>AAWS Muara Limun</td>
+<td></td>
+</tr>
+<tr>
+<td>56</td>
+<td>STA3225</td>
+<td>AAWS Nagan Raya</td>
+<td>2020<sup id="fnref7:1"><a class="footnote-ref" href="#fn:1">1</a></sup></td>
+</tr>
+<tr>
+<td>57</td>
+<td>AAWS0335</td>
+<td>AAWS Ngapaaha</td>
+<td>2019</td>
+</tr>
+<tr>
+<td>58</td>
+<td>STA3025</td>
+<td>AAWS (ex. Oelbubuk)</td>
+<td>2020<sup id="fnref6:1"><a class="footnote-ref" href="#fn:1">1</a></sup></td>
+</tr>
+<tr>
+<td>59</td>
+<td>STA3046</td>
+<td>AAWS Ogan Komering Ilir</td>
+<td></td>
+</tr>
+<tr>
+<td>60</td>
+<td>AAWS0317</td>
+<td>AAWS Pagar Alam</td>
+<td>2019</td>
+</tr>
+<tr>
+<td>61</td>
+<td>AAWS0337</td>
+<td>AAWS Pande Batu Pulang Pisau</td>
+<td>2020</td>
+</tr>
+<tr>
+<td>62</td>
+<td>AAWS0328</td>
+<td>AAWS Parigi Moutong</td>
+<td>2020</td>
+</tr>
+<tr>
+<td>63</td>
+<td>AAWS0357</td>
+<td>AAWS Pati</td>
+<td>2019</td>
+</tr>
+<tr>
+<td>64</td>
+<td>STA3008</td>
+<td>AAWS Pelabuhan Ratu</td>
+<td></td>
+</tr>
+<tr>
+<td>65</td>
+<td>STA3036</td>
+<td>AAWS Pelaihari</td>
+<td>2020</td>
+</tr>
+<tr>
+<td>66</td>
+<td>STA3039</td>
+<td>AAWS Penajam Paser Utara</td>
+<td>2020</td>
+</tr>
+<tr>
+<td>67</td>
+<td>STA3227</td>
+<td>AAWS Peudada</td>
+<td>2020<sup id="fnref5:1"><a class="footnote-ref" href="#fn:1">1</a></sup></td>
+</tr>
+<tr>
+<td>68</td>
+<td>STA3031</td>
+<td>AAWS Peureulak</td>
+<td>2020</td>
+</tr>
+<tr>
+<td>69</td>
+<td>AAWS0324</td>
+<td>AAWS Pinagoluman</td>
+<td>2019</td>
+</tr>
+<tr>
+<td>70</td>
+<td>STA3034</td>
+<td>AAWS Pohuwato</td>
+<td></td>
+</tr>
+<tr>
+<td>71</td>
+<td>AAWS0329</td>
+<td>AAWS Polewali Mandar</td>
+<td>2019</td>
+</tr>
+<tr>
+<td>72</td>
+<td>STA3045</td>
+<td>AAWS Pringsewu</td>
+<td></td>
+</tr>
+<tr>
+<td>73</td>
+<td>STA3019</td>
+<td>AAWS Purwodadi</td>
+<td></td>
+</tr>
+<tr>
+<td>74</td>
+<td>AAWS0340</td>
+<td>AAWS Rappang Sidrap</td>
+<td>2020</td>
+</tr>
+<tr>
+<td>75</td>
+<td>STA3021</td>
+<td>AAWS Rembang</td>
+<td></td>
+</tr>
+<tr>
+<td>76</td>
+<td>STA3203</td>
+<td>AAWS Rokan Hilir</td>
+<td>2020<sup id="fnref4:1"><a class="footnote-ref" href="#fn:1">1</a></sup></td>
+</tr>
+<tr>
+<td>77</td>
+<td>STA3044</td>
+<td>AAWS Sambas</td>
+<td>2020</td>
+</tr>
+<tr>
+<td>78</td>
+<td>AAWS0339</td>
+<td>AAWS Sambelia</td>
+<td>2019</td>
+</tr>
+<tr>
+<td>79</td>
+<td>AAWS0313</td>
+<td>AAWS Seputih Raman</td>
+<td>2019</td>
+</tr>
+<tr>
+<td>80</td>
+<td>STA3001</td>
+<td>AAWS Serang</td>
+<td>2020<sup id="fnref3:1"><a class="footnote-ref" href="#fn:1">1</a></sup></td>
+</tr>
+<tr>
+<td>81</td>
+<td>STA3207</td>
+<td>AAWS Serdang Bedagai</td>
+<td></td>
+</tr>
+<tr>
+<td>82</td>
+<td>AAWS0314</td>
+<td>AAWS Sidomulyo</td>
+<td>2020</td>
+</tr>
+<tr>
+<td>83</td>
+<td>AAWS0341</td>
+<td>AAWS Sidondo</td>
+<td>2019</td>
+</tr>
+<tr>
+<td>84</td>
+<td>AAWS0356</td>
+<td>AAWS Singingi</td>
+<td>2019</td>
+</tr>
+<tr>
+<td>85</td>
+<td>AAWS0350</td>
+<td>AAWS Sruweng</td>
+<td>2019</td>
+</tr>
+<tr>
+<td>86</td>
+<td>STA3205</td>
+<td>AAWS Staklim Padang Pariaman</td>
+<td>2020<sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">1</a></sup></td>
+</tr>
+<tr>
+<td>87</td>
+<td>AAWS0358</td>
+<td>AAWS Sukoharjo</td>
+<td>2019</td>
+</tr>
+<tr>
+<td>88</td>
+<td>STA3029</td>
+<td>AAWS Sumbawa</td>
+<td>2020</td>
+</tr>
+<tr>
+<td>89</td>
+<td>STA3004</td>
+<td>AAWS Sumedang</td>
+<td></td>
+</tr>
+<tr>
+<td>90</td>
+<td>STA3038</td>
+<td>AAWS Tabalong</td>
+<td>2020</td>
+</tr>
+<tr>
+<td>91</td>
+<td>STA3056</td>
+<td>AAWS Tabanan</td>
+<td>2020<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></td>
+</tr>
+<tr>
+<td>92</td>
+<td>STA3028</td>
+<td>AAWS Taliwang</td>
+<td>2020</td>
+</tr>
+<tr>
+<td>93</td>
+<td>14083224</td>
+<td>AAWS Tanah Miring</td>
+<td></td>
+</tr>
+<tr>
+<td>94</td>
+<td>AAWS0312</td>
+<td>AAWS Tanggamus</td>
+<td>2019</td>
+</tr>
+<tr>
+<td>95</td>
+<td>AAWS0344</td>
+<td>AAWS Tanjung Jabung Timur</td>
+<td>2019</td>
+</tr>
+<tr>
+<td>96</td>
+<td>STA3002</td>
+<td>AAWS Teluk Lada</td>
+<td></td>
+</tr>
+<tr>
+<td>97</td>
+<td>AAWS0310</td>
+<td>AAWS Toboali</td>
+<td>2019</td>
+</tr>
+<tr>
+<td>98</td>
+<td>AAWS0359</td>
+<td>AAWS Tuban</td>
+<td>2019</td>
+</tr>
+<tr>
+<td>99</td>
+<td>STA3053</td>
+<td>AAWS Tulungagung</td>
+<td></td>
+</tr>
+<tr>
+<td>100</td>
+<td>STA3005</td>
+<td>AAWS Ujung Genteng</td>
+<td></td>
+</tr>
+<tr>
+<td>101</td>
+<td>STA3027</td>
+<td>AAWS Waingapu</td>
+<td>2020</td>
+</tr>
+<tr>
+<td>102</td>
+<td>AAWS0332</td>
+<td>AAWS Wajo</td>
+<td>2020</td>
+</tr>
+<tr>
+<td>103</td>
+<td>AAWS0336</td>
+<td>AAWS Yosowilangun</td>
+<td>2019</td>
+</tr>
+<tr>
+<td>104</td>
+<td>160030</td>
+<td>AWS UNDIP</td>
+<td>2019</td>
+</tr>
+</tbody>
+</table>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>Terdapat perbedaan kabel WS 2m untuk sensor tahun 2021.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref3:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref4:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref5:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref6:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref7:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref8:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref9:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref10:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref11:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref12:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref13:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref14:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref15:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref16:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref17:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref18:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref19:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref20:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+
+              
+            </article>
+            
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../solar-panel/" class="md-footer__link md-footer__link--prev" aria-label="Sebelumnya: Wiring Power" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Sebelumnya
+              </span>
+              Wiring Power
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../wind10/" class="md-footer__link md-footer__link--next" aria-label="Selanjutnya: Wind 10m" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Selanjutnya
+              </span>
+              Wind 10m
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2022 IRK BMKG
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": ["instant"], "search": "../assets/javascripts/workers/search.85cb4492.min.js", "translations": {"clipboard.copied": "Tersalin ke memori", "clipboard.copy": "Salin ke memori", "search.config.lang": "en", "search.config.pipeline": " ", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Cari", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "Tidak ada dokumen yang sesuai", "search.result.one": "1 dokumen ditemukan", "search.result.other": "# dokumen ditemukan", "search.result.placeholder": "Ketik untuk mulai pencarian", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.431f3d41.min.js"></script>
+      
+        <script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
+      
+        <script src="../javascripts/tables.js"></script>
+      
+    
+  </body>
+</html>
