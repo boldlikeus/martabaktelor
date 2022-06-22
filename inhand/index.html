@@ -794,18 +794,89 @@
 <h1 id="modems">Modems</h1>
 <hr />
 <h2 id="inhand">InHand</h2>
-<p><code>1</code> Pada web browser ketik alamat: <code>192.168.10.10</code></p>
-<p><code>2</code> Lalu login dengan user: <code>adm</code> dan password: <code>123456</code></p>
-<p><code>3</code> Setting APN, Username dan Password dari simcard yang digunakan untuk koneksi internet.</p>
-<pre><code>•   Pilih Menu Setting APN &gt; Network &gt; Dial up 
-•   Isi APN: sesuai APN simcard/M2M
-•   Username dan Password: kosongkan (atau di isi sesuai simcard M2M)
-•   Dial Up: kosongkan
+<ul class="task-list">
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <code>1</code>   Pada web browser ketik alamat: <code>192.168.10.10</code> untuk akses logger</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <code>2</code>   Lalu login dengan user: <code>adm</code> dan password: <code>123456</code> atau <code>awsklimat</code> atau <code>aawsklimat</code></p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <code>3</code>   Set nama lokasi: pilih menu <strong>System</strong> &gt; <strong>Basic Setup</strong> &gt; <strong>Hostname</strong>, isi sesuai nama lokasi</p>
+</li>
+</ul>
+<dl>
+<dd><img alt="Placeholder" loading="lazy" src="../img/inhand-02.png" /></dd>
+</dl>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <code>4</code> Set waktu: pilih menu <strong>System</strong> &gt; <strong>Time</strong>. Router time menggunakan waktu lokal sesuai timezone. Silahkan pilih <strong>Timezone</strong> sesuai lokasi lalu klik <strong>Apply</strong></li>
+</ul>
+<dl>
+<dd><img alt="Placeholder" loading="lazy" src="../img/inhand-03.png" /></dd>
+</dl>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <code>5</code> Setting APN, Username dan Password dari simcard yang digunakan untuk koneksi internet.<pre><code>•   Pilih Menu "Network" &gt; "Cellular" &gt; "Dial up" 
+•   Firmware Baru:
+    Buat atau edit Profile dan isikan sesuai dengan data yang diperlukan. 
+    Setelah itu pilih Profile tersebut untuk "Cellular 1 Network Provider"
+    Data untuk Profile sebagai berikut:
+    •   Bagian Index diisi dengan nomor urut
+    •   Isi APN: sesuai APN simcard/M2M
+    •   Username dan Password: kosongkan (atau di isi sesuai simcard M2M)
+    •   Access Number: *99#    
+•   Firmware Lama:
+    Tidak ada pilihan Profile. 
+    Langsung isi data Profile tersebut diatas pada baris yang ditentukan
 •   Network type: Auto
 •   Connection Mode: Always Online
+•   Lalu klik Apply/Save/Submit 
+•   Reboot
 </code></pre>
-<p><code>4</code> Lalu klik Apply/Save/Submit </p>
-<p><code>5</code> Reboot</p>
+</li>
+</ul>
+<dl>
+<dd><img alt="Placeholder" loading="lazy" src="../img/inhand-04.png" /></dd>
+<dd><img alt="Placeholder" loading="lazy" src="../img/inhand-04b.png" /></dd>
+</dl>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <code>6</code> Set SMS untuk Reset: pilih menu <strong>Services</strong> &gt; <strong>SMS</strong>. Tambahkan Nama dan Nomor HP teknisi UPT terkait<pre><code>•   Perintah sms untuk cek status: status
+•   Perintah sms untuk reset: reset
+</code></pre>
+</li>
+</ul>
+<dl>
+<dd><img alt="Placeholder" loading="lazy" src="../img/inhand-06.png" /></dd>
+</dl>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <code>7</code> VPN <pre><code>Bila belum terkonfigurasi, lakukan konfigurasi dengan pilih menu VPN &gt; PPTP Client
+•   Isi PPTP Server: 202.90.198.24
+•   Isi username dan password sesuai lokasi masing-masing
+•   Lalu Simpan
+
+Bila sudah terkonfigurasi, pastian status VPN sudah Connected
+</code></pre>
+</li>
+</ul>
+<dl>
+<dd><img alt="Placeholder" loading="lazy" src="../img/inhand-05.png" /></dd>
+</dl>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <code>8</code> Test Ping Untuk Memastikan Konfigurasi Modem Sudah Oke.<pre><code>Pilih menu "Tools" &gt; "Ping"
+
+Ketik IP berikut pada bagian "Host" lalu klik "Ping"
+
+•   ping ke 202.90.198.24  (ping ke server VPN)  
+•   ping ke 202.90.198.212  (ping ke server aws center)
+•   ping ke 202.90.199.173 (Server Thies)
+
+Bila OK maka muncul keterangan: 
+jumlah packets transmitted = packets transmitted dan 0% packet loss
+</code></pre>
+</li>
+</ul>
+<dl>
+<dd><img alt="Placeholder" loading="lazy" src="../img/inhand-07.png" /></dd>
+</dl>
 
               
             </article>
